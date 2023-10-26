@@ -1,7 +1,6 @@
 
 # Banking System - Spring Boot Application
 
-![Banking System Banner](link-to-your-banner-image)
 
 ## Table of Contents
 
