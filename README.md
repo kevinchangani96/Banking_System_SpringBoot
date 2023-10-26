@@ -50,7 +50,7 @@ To get started with this Banking System, follow these steps:
 
    # Banking System - Spring Boot Application
 
-![Banking System Banner](link-to-your-banner-image)
+
 
 ## Getting Started
 
@@ -67,6 +67,10 @@ Feel free to connect with me to learn more or discuss the technology behind it:
 
 - Email: changanikevin96@email.com
 - LinkedIn: [kevinchangani](https://www.linkedin.com/in/kevinchangani/)
+
+- ### The below video shows how the app works:
+https://github.com/kevinchangani96/Addzero_springbooot/assets/86094750/be9f2641-dd29-4212-8bae-6a2aa21dd827
+
 
 
 
