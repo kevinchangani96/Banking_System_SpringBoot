@@ -1,5 +1,5 @@
 
-# Banking System - Spring Boot Application
+# Banking System - Spring Boot Application 💲🏦
 Welcome to the Banking System, a robust backend solution designed to provide seamless banking operations and financial management. This project aims to offer a comprehensive suite of features for managing multiple bank accounts, transactions, and account-related operations.
 
 ## Frameworks and Languages
@@ -20,7 +20,7 @@ The project follows a standard Spring Boot MVC structure and consists of the fol
 * **Repository:** Handles data access to the MySQL database.
 * **DTO (Data Transfer Object):** Represents the data structure exchanged between the API and the client.
 * **Model:** Represents the data model(entity) mapped to the MySQL database.
-* 
+  
 ## Features and Functionality
 
 - Open multiple bank accounts at once with just one request!
@@ -60,10 +60,6 @@ To get started with this Banking System, follow these steps:
 
 2. **Build and run the application** using Maven or your preferred IDE.
 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
