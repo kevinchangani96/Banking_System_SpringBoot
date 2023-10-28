@@ -17,11 +17,11 @@ public class TransactionService {
     }
 
     public List<TransactionHistory> statment(String acNumber) {
-        return transactionRepo.findByacNumber(acNumber);
+        return transactionRepo.findByAcNumber(acNumber);
     }
 
     public List<TransactionHistory> getAll(String acNumber) {
-        return transactionRepo.findByacNumber(acNumber);
+        return transactionRepo.findByAcNumber(acNumber);
 
     }
 }

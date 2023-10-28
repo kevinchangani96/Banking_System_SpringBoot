@@ -13,14 +13,14 @@ public class OpenApiConfig {
   OpenAPI customOpenApi() {
     return new OpenAPI().info(
             new Info()
-                    .title("Demo for Implement Swagger")
+                    .title("Banking System API")
                     .version("v1")
-                    .description("Hello guys, chalo bank lutne")
+                    .description("Welcome to the Banking System API. This API provides a range of features for managing your banking needs, including account creation, transactions, and more.")
                     .termsOfService("https://springdoc.org/")
                     .license(
                             new License()
-                                    .name("OpenSource")
-                                    .url("https://springdoc.org/")
+                                    .name("Source Code")
+                                    .url("https://github.com/kevinchangani96/Addzero_springbooot/tree/main/Banking-Application")
                     )
     );
   }

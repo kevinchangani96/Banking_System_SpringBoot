@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("bank")
-@Tag(name = "Hello Bank", description = "Banking system API")
+@Tag(name = "Banking API", description = "Manage your finances with our Banking API. Securely perform transactions, check balances, and more.")
 public class BankController {
 
     @Autowired
@@ -42,7 +42,7 @@ public class BankController {
     public List<Bank> getAll() {
         return bankService.getAll();
     }
-
+    
     @GetMapping("/getByAcNumber")
     public Bank getByAcNumber(@RequestParam String AcNumber) {
         return bankService.getByAcNumber(AcNumber);

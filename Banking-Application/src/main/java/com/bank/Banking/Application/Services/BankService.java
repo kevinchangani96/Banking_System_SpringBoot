@@ -25,7 +25,7 @@ public class BankService {
 
     public Bank deposit(String acNumber, double deposit) {
         Bank bank = new Bank();
-        bank = bankRepo.findByacNumber(acNumber);
+        bank = bankRepo.findByAcNumber(acNumber);
 
         TransactionHistory th = new TransactionHistory();
         th.setName(bank.getName());
@@ -43,7 +43,7 @@ public class BankService {
 
     public Bank withdraw(String acNumber, double withdraw) {
         Bank bank = new Bank();
-        bank = bankRepo.findByacNumber(acNumber);
+        bank = bankRepo.findByAcNumber(acNumber);
         if (bank.getBalance() < withdraw) {
             return bank;
         }
@@ -66,7 +66,7 @@ public class BankService {
 
 
         Bank senderdetails = new Bank();
-        senderdetails = bankRepo.findByacNumber(sender);
+        senderdetails = bankRepo.findByAcNumber(sender);
         senderdetails.setBalance(senderdetails.getBalance() - amount);
 
         TransactionHistory th = new TransactionHistory();
@@ -82,7 +82,7 @@ public class BankService {
 
 
         Bank reciverdetails = new Bank();
-        reciverdetails = bankRepo.findByacNumber(reciver);
+        reciverdetails = bankRepo.findByAcNumber(reciver);
         reciverdetails.setBalance(reciverdetails.getBalance() + amount);
 
 
@@ -113,7 +113,7 @@ public class BankService {
     }
 
     public Bank getByAcNumber(String acNumber) {
-        return bankRepo.findByacNumber(acNumber);
+        return bankRepo.findByAcNumber(acNumber);
     }
 
 

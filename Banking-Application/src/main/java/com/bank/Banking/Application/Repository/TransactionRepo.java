@@ -12,5 +12,5 @@ import java.util.List;
 @Repository
 public interface TransactionRepo extends JpaRepository<TransactionHistory,Long> {
     @Query(value = "SELECT * FROM transaction_history WHERE account_number =:acNumber", nativeQuery = true)
-    List<TransactionHistory> findByacNumber(String acNumber);
+    List<TransactionHistory> findByAcNumber(String acNumber);
 }
